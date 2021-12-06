@@ -4,6 +4,9 @@ fun main() {
     names.add("Joe")
 
     for (name in names) {
-        println(name)
+        if(name.equals("Lucas"))
+            println("What are you doing here Lucas?")
+        else
+            println(name)
     }
 }
