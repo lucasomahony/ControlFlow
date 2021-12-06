@@ -1,6 +1,7 @@
 fun main() {
     var names : ArrayList<String> = ArrayList();
 
+
     names.add("Peter")
     names.add("Mark")
     names.add("Alice")
@@ -11,4 +12,10 @@ fun main() {
     for (name in names) {
         println(name)
     }
+
+    var x : Array<String> = arrayOf("a", "b", "c")
+
+    for (i in x)
+        println(i)
+
 }
